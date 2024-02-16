@@ -1,14 +1,20 @@
-import CSB from './dp/creational/builder.js';
+//Creational
+import Builder from './dp/creational/builder.js';
 import Factory from './dp/creational/factory.js';
 import Prototype from './dp/creational/prototype.js';
 import Singleton from './dp/creational/singleton.js';
+//structural
+import Adapter from './dp/structural/adapter.js';
+
 
 const dpMapping = {
-  Builder: CSB,
+  Builder: Builder,
   Factory: Factory,
   Prototype: Prototype,
   Singleton: Singleton,
+  Adapter:Adapter 
 };
+
 
 const printToScreen = (contents) => {
   console.log('I am called');
