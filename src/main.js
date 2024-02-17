@@ -17,11 +17,9 @@ const dpMapping = {
 
 
 const printToScreen = (contents) => {
-  console.log('I am called');
   document.getElementById('dvContents').innerText = contents;
 };
-window.onButtonClick = (key) => {
-  console.log('i am call with ', key);
+window.onButtonClick = (key) => { 
   printToScreen(dpMapping[key]());
 };
 
