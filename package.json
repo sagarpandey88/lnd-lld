@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "live-server": "~1.2.2"
   },
-  "scripts": {"start": "live-server"}
+  "scripts": {"start": "live-server ./src" }
 }
