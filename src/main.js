@@ -5,6 +5,7 @@ import Prototype from './dp/creational/prototype.js';
 import Singleton from './dp/creational/singleton.js';
 //structural
 import Adapter from './dp/structural/adapter.js';
+import Bridge from './dp/structural/bridge.js';
 
 
 const dpMapping = {
@@ -12,7 +13,8 @@ const dpMapping = {
   Factory: Factory,
   Prototype: Prototype,
   Singleton: Singleton,
-  Adapter:Adapter 
+  Adapter:Adapter,
+  Bridge:Bridge
 };
 
 
