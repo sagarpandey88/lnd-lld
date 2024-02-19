@@ -1,3 +1,5 @@
+//When there is a hierarchy
+
 // You are given an example of an inheritance hierarchy which results in Cartesian-product duplication.
 
 // Please refactor this hierarchy, 
@@ -82,25 +84,6 @@ class Square extends Shape
     }
     
 }
-//
-// class VectorSquare extends Square
-// {
-//   toString()
-//   {
-//     return `Drawing square as lines`;
-//   }
-// }
-//
-// class RasterSquare extends Square
-// {
-//   toString()
-//   {
-//     return `Drawing square as pixels`;
-//   }
-// }
-
-// imagine VectorTriangle and RasterTriangle are here too
-
 
 
 const run = () => {
