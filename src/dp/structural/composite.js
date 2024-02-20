@@ -44,7 +44,7 @@ const run = () => {
     otherValues.push(33);
 
     
-    return `${sum([singleValue,otherValues]).toString()}`;
+    return `The sum of values is : ${sum([singleValue,otherValues]).toString()}`;
   };
   
   export default run;
