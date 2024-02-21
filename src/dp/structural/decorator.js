@@ -54,3 +54,14 @@ class Dragon
   }
 
 }
+
+const run = () => {
+
+
+const drag = new Dragon(6);
+
+  
+  return `The Dragon is ${drag.fly()  + drag.crawl()}`;
+};
+
+export default run;

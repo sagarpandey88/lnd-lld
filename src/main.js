@@ -7,7 +7,9 @@ import Singleton from './dp/creational/singleton.js';
 import Adapter from './dp/structural/adapter.js';
 import Bridge from './dp/structural/bridge.js';
 import Composite from './dp/structural/composite.js';
+import Decorator from './dp/structural/decorator.js';
 
+import Facade from './dp/structural/facade.js';
 
 const dpMapping = {
   Builder: Builder,
@@ -16,7 +18,9 @@ const dpMapping = {
   Singleton: Singleton,
   Adapter:Adapter,
   Bridge:Bridge,
-  Composite:Composite
+  Composite:Composite,
+  Decorator:Decorator,
+  Facade:Facade
 };
 
 
