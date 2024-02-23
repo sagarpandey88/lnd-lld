@@ -10,6 +10,7 @@ import Composite from './dp/structural/composite.js';
 import Decorator from './dp/structural/decorator.js';
 
 import Facade from './dp/structural/facade.js';
+import Flyweight from './dp/structural/flyweight.js';
 
 const dpMapping = {
   Builder: Builder,
@@ -20,7 +21,8 @@ const dpMapping = {
   Bridge:Bridge,
   Composite:Composite,
   Decorator:Decorator,
-  Facade:Facade
+  Facade:Facade,
+  Flyweight: Flyweight
 };
 
 
