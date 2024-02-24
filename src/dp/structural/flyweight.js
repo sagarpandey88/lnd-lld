@@ -73,7 +73,7 @@ const run = () => {
     let s = new Sentence('alpha beta gamma');
     s.at(1).capitalize = true;    
 
-    return s.toString();
+    return {output: s.toString()  , message:"flyweight" } ;
     };
     
     export default run;

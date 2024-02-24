@@ -126,7 +126,7 @@ const run = () => {
         matrix+= val.join(",") + '\n'
       })
 
-      return `Generating Square \n ${matrix}`;
+      return {output: `Generating Square \n ${matrix}` , message:"facade"};
     };
     
     export default run;

@@ -61,7 +61,7 @@ const run = () => {
 const drag = new Dragon(6);
 
   
-  return `The Dragon is ${drag.fly()  + drag.crawl()}`;
+  return {output:`The Dragon is ${drag.fly()  + drag.crawl()}` , message:"decorator"} ;
 };
 
 export default run;

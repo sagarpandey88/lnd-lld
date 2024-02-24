@@ -76,7 +76,7 @@ const run = () => {
   const ln = new Line(new Point(1, 2), new Point(3, 4));
   const copiedObj = ln.deepCopy();
 
-  return JSON.stringify(copiedObj);
+  return {output: JSON.stringify(copiedObj) , message: "Prototype design pattern" } ;
 };
 
 export default run;

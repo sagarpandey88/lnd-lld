@@ -51,7 +51,7 @@ const run = () => {
   const cb = new CodeBuilder('Person');
   cb.addField('name').addField('age');
   console.log(cb.toString());
-  return cb.toString();
+  return  { output: cb.toString(), message: "Builder Design Pattern creates objects"};
 };
 
 export default run;

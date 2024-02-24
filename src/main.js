@@ -26,11 +26,13 @@ const dpMapping = {
 };
 
 
-const printToScreen = (contents) => {
-  document.getElementById('dvContents').innerText = contents;
+const printToScreen = (output,message) => {
+  document.getElementById('dvOutput').innerText = output;
+  document.getElementById('dvMessage').innerText = message;
 };
 window.onButtonClick = (key) => { 
-  printToScreen(dpMapping[key]());
+  const response = dpMapping[key]();
+  printToScreen(response.output , response.message);
 };
 
 const addButtons = () => {

@@ -23,7 +23,7 @@ const run = () => {
   const st2 = new Singleton('Calling the api 2');
 
   console.log(st1.toString());
-  return st1.toString() + st2.toString();
+  return {output: st1.toString() + st2.toString() , message: "Singleton generates only one object and returns same instance when requested again"} ;
 };
 
 export default run;

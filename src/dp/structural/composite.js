@@ -44,7 +44,7 @@ const run = () => {
     otherValues.push(33);
 
     
-    return `The sum of values is : ${sum([singleValue,otherValues]).toString()}`;
+    return {output:`The sum of values is : ${sum([singleValue,otherValues]).toString()}` , message : "composite"} ;
   };
   
   export default run;

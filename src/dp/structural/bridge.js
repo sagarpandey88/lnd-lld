@@ -95,7 +95,7 @@ const run = () => {
     let tr = new  Triangle(new RasterRenderer());
     
   
-    return `${tr.toString()}`;
+    return {output:`${tr.toString()}` , message:"Bridge pattern"} ;
   };
   
   export default run;

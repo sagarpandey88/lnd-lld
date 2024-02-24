@@ -31,7 +31,7 @@ const run = () => {
   let sq = new Square(10);
   const areaOfSq = area(new SquareToRectangleAdapter(sq));
 
-  return `Area of Square is ${areaOfSq} using an adapter`;
+  return  {output:`Area of Square is ${areaOfSq} using an adapter` , message:"Adapter pattern"} ;
 };
 
 export default run;

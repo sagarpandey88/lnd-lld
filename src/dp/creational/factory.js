@@ -33,7 +33,7 @@ const run = () => {
   const p1 = pf.createPerson('Dave');
   const p2 = pf.createPerson('David');
 
-  return p1.toString() + ' ' + p2.toString();
+  return {output:  p1.toString() + ' ' + p2.toString()  , message: "factory pattern" };
 };
 
 export default run;

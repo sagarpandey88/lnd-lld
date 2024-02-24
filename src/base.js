@@ -4,6 +4,6 @@ export class BaseClass {
   toString() {}
 
   run() {
-    return this.toString();
+    return {output:this.toString() , message:""} ;
   }
 }
